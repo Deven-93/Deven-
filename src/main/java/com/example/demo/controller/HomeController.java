@@ -49,7 +49,7 @@ public class HomeController {
 	public ModelAndView getHome()
 	{
 		ModelAndView mv = new ModelAndView();
-		mv.setViewName("fetch");
+		mv.setViewName("result");
 		return mv;
 	}
 	
