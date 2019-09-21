@@ -10,13 +10,13 @@
 </head>
 <body>
 <%@ page import="java.util.*,com.example.demo.*" %>
-<form action="/add" method="Post">
+<form action="/home/add" method="Post">
 <b>Enter your name</b><input type="text" name="name"/>
 <b>Enter your email</b><input type="text" name="email"/>
 <b>Enter your salary</b><input type="text" name="salary"/>
 <input type="submit" name="submit"/>
 </form>
-<form action="/fetch">
+<form action="/home/fetch">
 <input type="submit" name="submit" value="SortBySalary"/>
 </form>
 

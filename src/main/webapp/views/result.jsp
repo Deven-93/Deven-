@@ -27,12 +27,12 @@
 <th>salary</th>
 </tr>
 
-<c:forEach items="${lists}" var="lists">
+<c:forEach items="${emp}" var="emp">
 <tr>
 
-     <td>  ${lists.getName()}  </td>
-     <td>  ${lists.getEmail()}</td>
-      <td> ${lists.getSalary()}</td>
+     <td>  ${emp.getName()}  </td>
+     <td>  ${emp.getEmail()}</td>
+      <td> ${emp.getSalary()}</td>
     
       </tr>
 </c:forEach>
